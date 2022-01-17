@@ -1,0 +1,168 @@
+.mylinks { margin-top: 50px; }
+.dashboard {
+  font-size: 25px;
+  text-align: center;
+}
+.mystyle table {
+  width: 100%;
+  line-height: 3;
+  font-size: 18px;
+  text-align: center;
+}
+.mystyle thead {
+  color: White;
+  background-color: SlateGray;
+}
+.mystyle tr:nth-child(even) { background-color: GhostWhite; }
+.mystyle img {
+  width: 60px;
+  margin: auto;
+}
+.mystyle form { line-height: 1.5; }
+.label-input { margin-top: 20px; }
+.button-green {
+  margin: 10px auto;
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  color: Green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-green:hover {
+  color: Green;
+  text-decoration: none;
+  box-shadow: 0px 0px 25px 5px #c2fbd7;
+}
+.button-yellow {
+  margin: 10px;
+  background-color: #fbfbc2;
+  border-radius: 100px;
+  color: Orange;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-yellow:hover {
+  color: Orange;
+  text-decoration: none;
+  box-shadow: 0px 0px 25px 5px #fbfbc2;
+}
+.button-gray {
+  margin: 10px auto;
+  background-color: #e8e8e8;
+  border-radius: 100px;
+  color: Gray;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-gray:hover {
+  color: Gray;
+  text-decoration: none;
+  box-shadow: 0px 0px 25px 5px #e8e8e8;
+}
+.button-red {
+  margin: 10px;
+  background-color: #fbc2c2 !important;
+  border-radius: 100px;
+  color: Red;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-red:hover { box-shadow: 0px 0px 25px 5px #fbc2c2; }
+.button-blue {
+  margin: 10px auto;
+  background-color: #c2cbfb !important;
+  border-radius: 100px;
+  color: Blue;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-blue:hover { box-shadow: 0px 0px 25px 5px #c2cbfb; }
+/****************************** matches.php ******************************/
+.tickets table {
+  width: 100% !important;
+  margin-top: 50px !important;
+  table-layout: fixed !important;
+  border-collapse: collapse !important;
+}
+.tickets table td[colspan] {
+  text-align: left !important;
+  background-color: #e6e6e6 !important;
+}
+.tickets table td.right { text-align: right !important; }
+.tickets table td img {
+  margin: auto !important;
+  height: 30px !important;
+}
+.tickets table td {
+  padding: 0.75em !important;
+  text-align: center !important;
+}
+/****************************** tickets.php ******************************/
+/*.ticket { border: 1px solid Black !important; }*/
+.price {
+  color: Red !important;
+  font-size: 22px !important;
+}
+.description td { background-color: #e6e6e6 !important; }
+.mybtn {
+  color: White !important;
+  font-size: 1em !important;
+  cursor: pointer !important;
+  border-style: none !important;
+  padding: 15px 30px !important;
+  border-radius: 50px !important;
+  background-color: #cb0101 !important; /* Red 1 */
+  box-shadow: 5px 10px 20px #888888 !important;
+}
+.mybtn:hover { background-color: #980101 !important; } /* Red 2 */
+.mybtn:active { background-color: #262626 !important; } /* Black */
